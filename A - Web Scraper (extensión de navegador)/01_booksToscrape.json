@@ -1,0 +1,84 @@
+[
+  {
+    "_id": "booksToscrape",
+    "startUrl": [
+      "https://books.toscrape.com/catalogue/category/books_1/index.html  "
+    ],
+    "selectors": [
+      {
+        "id": "categoryLink",
+        "parentSelectors": [
+          "_root"
+        ],
+        "type": "SelectorLink",
+        "selector": "div.side_categories ul li ul li a",
+        "multiple": true,
+        "linkType": "linkFromHref"
+      },
+      {
+        "id": "categoryName",
+        "parentSelectors": [
+          "categoryLink"
+        ],
+        "type": "SelectorText",
+        "selector": "div.page_header h1",
+        "multiple": false,
+        "regex": "",
+        "multipleType": "singleColumn"
+      },
+      {
+        "id": "bookLink",
+        "parentSelectors": [
+          "categoryLink"
+        ],
+        "type": "SelectorLink",
+        "selector": "article.product_pod h3 a",
+        "multiple": true,
+        "linkType": "linkFromHref"
+      },
+      {
+        "id": "title",
+        "parentSelectors": [
+          "bookLink"
+        ],
+        "type": "SelectorText",
+        "selector": "div.product_main h1",
+        "multiple": false,
+        "regex": "",
+        "multipleType": "singleColumn"
+      },
+      {
+        "id": "price",
+        "parentSelectors": [
+          "bookLink"
+        ],
+        "type": "SelectorText",
+        "selector": "div.product_main p.price_color",
+        "multiple": false,
+        "regex": "",
+        "multipleType": "singleColumn"
+      },
+      {
+        "id": "ratingClass",
+        "parentSelectors": [
+          "bookLink"
+        ],
+        "type": "SelectorElementAttribute",
+        "selector": "p.star-rating",
+        "multiple": false,
+        "extractAttribute": "class",
+        "multipleType": "singleColumn"
+      },
+      {
+        "id": "nextPage",
+        "parentSelectors": [
+          "categoryLink"
+        ],
+        "type": "SelectorLink",
+        "selector": "li.next a",
+        "multiple": false,
+        "linkType": "linkFromHref"
+      }
+    ]
+  }
+]
