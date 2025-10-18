@@ -65,5 +65,5 @@ Se tomaron las siguientes decisiones clave:
 Esta práctica demuestra que el web scraping, cuando se aplica con conocimiento técnico y responsabilidad ética, es una herramienta poderosa para la recolección de datos públicos. El sitio *Books to Scrape* ofrece un entorno ideal para aprender, y las decisiones de diseño adoptadas permitieron cumplir con todos los requisitos solicitados: sitemap con paginación, ≥800 registros, y extracción completa de los campos clave.
 
 > **Entregables generados**:  
-> - `booksToscrape.json` (sitemap exportado)  
-> - `booksToscrape.csv` (≥800 libros con título, precio, rating, categoría y enlace)
+> - `01_booksToscrape.json` (sitemap exportado)  
+> - `02_booksToscrape.csv` (≥800 libros con título, precio, rating, categoría y enlace)
