@@ -1,7 +1,6 @@
-# UNIVERSIDAD NACIONAL DEL ALTIPLANO PUNO
-## FINESI
-Docente: Aleman Gonzales Leonid
-Estudiante: Queccara Condori Franklin - 222147
+# <center>UNIVERSIDAD NACIONAL DEL ALTIPLANO PUNO</center>
+## <center>FINESI</center>
+Docente: Aleman Gonzales Leonid <br> Estudiante: Queccara Condori Franklin - 222147
 
 # Informe sobre Web Scraping: Extracción de datos de *Books to Scrape*
 
@@ -63,7 +62,7 @@ Se tomaron las siguientes decisiones clave:
 
 ## Conclusión
 
-El proyecto demuestra que el web scraping, cuando se aplica con conocimiento técnico y responsabilidad ética, es una herramienta poderosa para la recolección de datos públicos. El sitio *Books to Scrape* ofrece un entorno ideal para aprender, y las decisiones de diseño adoptadas permitieron cumplir con todos los requisitos solicitados: sitemap con paginación, ≥800 registros, y extracción completa de los campos clave.
+Esta práctica demuestra que el web scraping, cuando se aplica con conocimiento técnico y responsabilidad ética, es una herramienta poderosa para la recolección de datos públicos. El sitio *Books to Scrape* ofrece un entorno ideal para aprender, y las decisiones de diseño adoptadas permitieron cumplir con todos los requisitos solicitados: sitemap con paginación, ≥800 registros, y extracción completa de los campos clave.
 
 > **Entregables generados**:  
 > - `booksToscrape.json` (sitemap exportado)  
