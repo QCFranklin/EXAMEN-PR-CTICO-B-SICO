@@ -1,0 +1,7 @@
+=== RESULTADOS ===
+Código de estado HTTP: 200
+
+Headers de respuesta:
+{'Accept-Ranges': 'bytes', 'Content-Type': 'text/html', 'ETag': '"bc2473a18e003bdb249eba5ce893033f:1760028122.592274"', 'Last-Modified': 'Thu, 09 Oct 2025 16:42:02 GMT', 'Vary': 'Accept-Encoding', 'Content-Encoding': 'gzip', 'Cache-Control': 'max-age=86000', 'Date': 'Sat, 18 Oct 2025 02:27:06 GMT', 'Content-Length': '363', 'Connection': 'keep-alive', 'Alt-Svc': 'h3=":443"; ma=93600'}
+
+Apariciones de 'example' en el HTML: 4
